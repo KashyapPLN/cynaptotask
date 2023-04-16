@@ -1,0 +1,43 @@
+.menu-container{
+/*     
+    border-right: 1px solid black; */
+    height: 100vh;
+}
+.logo-title{
+    font-weight:800;
+    margin:30px;
+}
+.new-videoBtn{
+    margin:30px;
+    background-color: #0097fe;
+    border: none;
+    border-radius: 8px;
+    width:80%;
+    height:45px;
+    color: white;
+    font-size: 13px;
+    font-weight:500;
+    text-align: left;
+}
+.home-btn{
+    margin-left:30px;
+    background-color: #eeeef0;
+    border: none;
+    border-radius: 8px;
+    width:80%;
+    height:45px;
+    text-align: left;
+    
+    font-weight: 600;
+}
+.common-btn{
+    margin-left:30px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    width:80%;
+    height:45px;
+    text-align: left;
+    margin-top: 15px;
+    font-weight: 600;
+}

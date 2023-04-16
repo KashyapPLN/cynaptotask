@@ -1,0 +1,13 @@
+.pointer-btn{
+    border:none;
+    background-color: white;
+    font-size: 20px;
+}
+
+.vid-player{
+    margin-top: 30px;
+    text-align: center;
+}
+.pointer-btn:hover{
+    color:#0097fe;
+}

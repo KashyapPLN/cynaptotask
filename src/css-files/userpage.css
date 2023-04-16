@@ -1,0 +1,179 @@
+.user-page{
+    background-color: #f7f7f9;
+    height:100%;
+    
+}
+
+.search{
+    height:48px;
+    border:none;
+    background-color: #f7f7f9;
+    outline:none;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:275px;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.search-bar{
+    width:300px;
+  height:50px;
+    display: flex;
+    flex-direction: row;
+margin-left: 50px;
+ border-radius: 15px;
+ margin-top: 40px;
+ /* border:1px solid #0097fe; */
+ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.search-bar:hover{
+    border:1px solid #0097fe;
+    color:#0097fe
+}
+
+.search-icon{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 25px;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+/* .search-btn{
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+    margin-top: 10px;
+  text-align: center;
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+  border: none;
+ 
+  
+  
+} */
+
+.upgrade-btn{
+    width:120px;
+    background-color: #fff1dd;
+    height: 50px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 15px;
+    margin-right: 6px;
+}
+.invite-btn{
+    width:120px;
+    background-color: #eeeef0;
+    height: 50px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 15px;
+  
+}
+.faq{
+    height:50px;
+    width:50px;
+    font-size: 30px;
+    margin-top: 30px;
+    border:none;
+    background-color:#f7f7f9 ;
+  
+}
+.bell{
+    height:50px;
+    width:50px;
+    font-size: 25px;
+    margin-top: 30px;
+    border:none;
+    background-color:#f7f7f9 ;
+   
+}
+.userDp{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+   
+}
+
+.intro-text{
+    font-weight: 450;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.create-btn{
+    background-color: white;
+    border:none;
+    width:200px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding-right: 35px;
+    font-weight: 500;
+    height: 60px;
+    margin-right: 16px;
+}
+.create-btn:hover{
+    color:#af68fe
+}
+.record-btn{
+    background-color: white;
+    border:none;
+    width:200px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    padding-right: 42px;
+    height: 60px;
+    margin-right: 16px;
+}
+.record-btn:hover{
+    color:#ff666c
+}
+.golive-btn{
+    background-color: white;
+    border:none;
+    width:200px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    padding-right: 86px;
+    height: 60px;
+    margin-right: 16px;
+}
+.golive-btn:hover{
+    color:#44b2fe
+}
+.podcast-btn{
+    background-color: white;
+    border:none;
+    width:200px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+    padding-right: 30px;
+    height: 60px;
+}
+.podcast-btn:hover{
+    color:#ffa928
+}
+
+.user-btns{
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+.allvid-btn{
+    margin-left: auto;
+    margin-right: 80px;
+    border: none;
+    background-color: #f7f7f9;
+    color: gray;
+    font-weight: 490;
+}
+

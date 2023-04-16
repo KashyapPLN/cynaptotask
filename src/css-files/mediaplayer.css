@@ -1,0 +1,14 @@
+.seekBar{
+    width:800px;
+    background: gray;
+    appearance: none;
+    outline: none;
+    margin: 0 10px;
+    border-radius: 5px;
+    height: 6px;
+}
+.rewind,.play,.pause,.forward{
+    border:none;
+    font-size: 30px;
+    background-color: white;
+}

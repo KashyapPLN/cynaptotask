@@ -1,0 +1,28 @@
+.bullets-btn{
+    font-size: 30px;
+    background-color: white;
+    border: none;
+    
+   
+}
+.grid-btn{
+    font-size: 24px;
+    background-color: white;
+    border: none;
+  
+    
+}
+
+.assets-btns{
+    margin-left: 40%;
+    position: absolute;
+    bottom: 0;
+    /* right:0; */
+    /* margin-right: 30px; */
+    margin-bottom: 50px;
+    display: flex;
+    
+}
+.bullets-btn:hover,.grid-btn:hover{
+    color:#0097fe;
+}
