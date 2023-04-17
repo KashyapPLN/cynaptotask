@@ -35,7 +35,7 @@
 
 .slider-val{
     border:none;
-    background-color: #84d0fc;
+    background-color: #fff1dd;
     text-align: center;
     border-radius: 6px;
     height: 30px;
@@ -51,7 +51,7 @@
 }
 .rotate-val{
     width:78px;
-    background-color: #fdb352;
+    background-color: #eeeef0;
     border: none;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
