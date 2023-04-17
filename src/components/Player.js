@@ -3,6 +3,7 @@ import {FaMousePointer} from 'react-icons/fa'
 import {IoHandRightOutline} from 'react-icons/io5'
 import {ImCrop} from 'react-icons/im'
 import PercentageDropdown from './PercentageDropdown'
+import pexels from '../pexels.mp4';
 export default function Player() {
   return (
     <div style={{height:'60vh'}}>
@@ -13,7 +14,7 @@ export default function Player() {
         <PercentageDropdown/>
       </div>
       <div className='vid-player'>
-        <iframe src='https://player.vimeo.com/video/112836958?h=d4a3a50265' width="800" height="450" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen/>
+        <iframe src={pexels} width="800" height="450" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen/>
       </div>
     </div>
   )
