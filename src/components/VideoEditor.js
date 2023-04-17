@@ -5,6 +5,9 @@ import Player from './Player'
 import Properties from './Properties'
 import MediaPlayer from './MediaPlayer'
 import EditorToolBar from './EditorToolBar'
+import {AiOutlinePlus} from 'react-icons/ai'
+import CustomSeekBar from './SeekBar'
+import Seek from './Seek'
 
 
 
@@ -33,7 +36,12 @@ export default function VideoEditor() {
                 <div>
                   <EditorToolBar/>
                 </div>
-         
+<div>
+  <Seek/>
+  {/* <CustomSeekBar/> */}
+  <CustomSeekBar/>
+ 
+</div>
             </div>
             </Col>
         </Row>

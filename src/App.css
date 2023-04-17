@@ -7,3 +7,56 @@
 @import url("./css-files/mediaplayer.css");
 @import url("./css-files/toolbar.css");
 
+.add-media{
+    width:98%;
+    height:80px;
+    background-color: #eee;
+    border:none;
+    margin-top: 10px;
+    font-weight: 500;
+    color: gray;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+ .custom-seek-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    /* margin-top: 50px; */
+    font-weight: 500;
+    margin-left: 0.5%;
+    margin-right: 1%;
+
+  }
+  
+  .marking {
+    position: relative;
+    height: 10px;
+  }
+  
+  .marking.big::after {
+    content: attr(data-label);
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .marking.small {
+    width: 1px;
+    background-color: #ccc;
+    margin-top: 5px;
+  }
+  
+
+
+
+  
+  .videoSlide::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    margin-top: 102px; /* Centers thumb on the track */
+    background-color: #0097fe;
+    height: 6rem;
+    width: 3px;    
+ }
