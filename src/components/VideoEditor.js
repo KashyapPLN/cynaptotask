@@ -1,13 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Col, Row } from 'react-bootstrap'
 import Assets from './Assets'
 import Player from './Player'
 import Properties from './Properties'
 import MediaPlayer from './MediaPlayer'
-import EditorToolBar from './EditorToolBar'
-import {AiOutlinePlus} from 'react-icons/ai'
-import CustomSeekBar from './SeekBar'
-import Seek from './Seek'
+import DragNDrop from './DragNDrop'
 
 
 
@@ -33,14 +30,13 @@ export default function VideoEditor() {
                 <div>
                   <MediaPlayer/>
                 </div>
-                <div>
-                  <EditorToolBar/>
-                </div>
+                
 <div>
-  <Seek/>
+  {/* <Seek/> */}
   {/* <CustomSeekBar/> */}
-  <CustomSeekBar/>
- 
+  {/* <CustomSeekBar/>
+  <VideoTrimmer/> */}
+ <DragNDrop/>
 </div>
             </div>
             </Col>

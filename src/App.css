@@ -21,17 +21,24 @@
  .custom-seek-bar {
     display: flex;
     justify-content: space-between;
-    width: 99%;
+    width: 98%;
     /* margin-top: 50px; */
     font-weight: 500;
-    margin-left: 0.5%;
-    margin-right: 1%;
+   
+    
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px;
 
   }
   
   .marking {
     position: relative;
     height: 10px;
+    color:gray;
+    font-size: 12px;
+    font-weight: bold;
   }
   
   .marking.big::after {
@@ -61,3 +68,96 @@
     width: 5px;   
     
  }
+
+
+/* #slider{
+  text-align: center;
+  font-weight: 550;
+  height: 80px;
+  color: grey;
+  border: none;
+} */
+#add-mediaLargeBtn{
+  text-align: center;
+  font-weight: 550;
+  height: 80px;
+  color: grey;
+  border: none;
+  background-color: #eee;
+  width:98%;
+  margin-left: 0.5%;
+  border-radius: 10px;
+}
+#slider{
+  border: none;
+  width:98%;
+}
+
+ .ui-slider{
+  width:98%;
+  /* height: 150px; */
+  margin-top: 10px;
+  margin-left: 1%;
+  
+  /* background-color: #eee; */
+  
+ }
+
+ .ui-slider .ui-slider-handle {
+
+height:150px;
+  /* background: #0097fe; */
+  background: url("Mediamodifier-Design-Template.png") no-repeat; 
+  
+  /* https://i.ibb.co/kGSBNfk/thumb-icon-1.png */
+   margin-top: -15px;
+  background-size: 30px 200px;
+background-position: center;  
+  overflow: hidden;
+  border: none;
+  outline: none;
+
+}
+#mediaFile1{
+width:900px;
+height:80px;
+background: #ccc;
+border-radius: 10px;
+outline: 2px solid black;  
+
+}
+/* #media{
+  width:100vw;
+  height: 150px;
+  } */
+  #mediaFile2{
+    width:500px;
+    height:80px;
+    background:greenyellow ;
+    border-radius: 10px;
+    outline: 2px solid black; 
+   
+    }
+    #mediaFile3{
+    
+        width:400px;
+        height:80px;
+        background: orange;
+        border-radius: 10px;
+        outline: 2px solid black;  
+       
+    }
+    #mediaFile4{
+      width:400px;
+      height:80px;
+      background: indianred;
+      border-radius: 10px;
+      outline: 2px solid black;
+     
+    }
+#mediaContainer{
+  
+  /* background: #0097fe; */
+  
+}
+  
