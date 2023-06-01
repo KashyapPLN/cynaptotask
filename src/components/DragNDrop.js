@@ -3,6 +3,7 @@ import {AiOutlinePlus} from 'react-icons/ai'
 import $ from 'jquery';
 import 'jquery-ui-dist/jquery-ui';
 import EditorToolBar from './EditorToolBar';
+import Scale from './Scale';
 
 
 export default function DragNDrop() {
@@ -10,26 +11,15 @@ export default function DragNDrop() {
   const [reading,setReading]=useState(60);
    const [temp,setTemp]=useState('');
    const [counter,setCounter]=useState(2);
-   const [innerDivId,setInnerDivId]=useState('');
+ const [fileWidth,setfileWidth]=useState(0);
+ var zoomLevel = 0;
+ var maxZoomLevel = 24; // 300 total markings, each zoom adds 10 markings, so 24 zooms in total
+ var initialWidth = 1800; // Updated width of the upper div
+ var initialMarkings = 60;
+ var maxMarkings = 300;
    const maxVal = 300;
    let val = reading;
   const markings = [];
- 
-  function adjustParentHeight() {
-  console.log("adjustparentheight")
-  }
-
-  function adjustDivHeight() {
-    var div = $('#mediaContainer');
-    div.css('height', 'auto');
-  
-    var contentHeight = div.prop('scrollHeight');
-    div.css('height', contentHeight + 'px');
-  }
-  
-  
-  
-
 
 function addDraggableVideoFile(){
    console.log("hello hi ")
@@ -40,9 +30,8 @@ function addDraggableVideoFile(){
      $('#mediaFile1').draggable({containment:'#mediaContainer',snap:true,
      snapMode:'outer',snapTolerance:30
      ,stop: function(event, ui) {
-      adjustDivHeight();
-      adjustParentHeight();
-    }}).resizable({ghost:true,handles:"e,w"});
+    
+       }}).resizable({ghost:true,handles:"e,w"});
      setTemp('#mediaFile1');
 }
 
@@ -55,9 +44,8 @@ function addMedia(){
     mediaFile.attr('class', 'mediaFiles');
     mediaFile.draggable({containment:'#mediaContainer',snap:true,snapTolerance:60,snapMode:'outer',stop: function(event, ui) {
   
-      adjustDivHeight();
-      adjustParentHeight();
-    }}).resizable({ghost:true,handles:"e,w"});
+  
+        }}).resizable({ghost:true,handles:"e,w"});
   
     $('#mediaContainer').prepend(mediaFile);
     setCounter(counter+1);
@@ -84,9 +72,9 @@ function addMedia(){
   }
 }
 $('#mediaContainer').droppable({drop:function(event, ui){
-  setInnerDivId(ui.draggable.attr('id'));
+  // setInnerDivId(ui.draggable.attr('id'));
   
-          adjustParentHeight();
+        
   }})
 
   for (let i = 0; i <= reading&&i<=300; i++) {
@@ -96,9 +84,9 @@ $('#mediaContainer').droppable({drop:function(event, ui){
       </div>
       
     );
-  
   }
-  
+
+
     useEffect(()=>{
        $( "#slider" ).slider();
        
@@ -162,9 +150,10 @@ if(reading<=120&&reading>=60){
     <div>
       <EditorToolBar temp={temp} setTemp={setTemp} incrementReading={incrementReading} decrementReading={decrementReading} addMedia={addMedia} maxVal={maxVal} val={val} setReading={setReading} reading={reading}/>
 <div id="slider">
-<div className="custom-seek-bar">
+{/* <div className="custom-seek-bar">
       {markings}     
-    </div>
+    </div> */}
+     <Scale/>
     <div id='mediaContainer'>
     <div id="media1"></div>
     </div>

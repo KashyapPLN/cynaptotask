@@ -4,6 +4,8 @@ import Home from './components/Home';
 import VideoEditor from './components/VideoEditor';
 import ThumbnailCreator from './components/ThumbnailCreator';
 import DragNDrop from './components/DragNDrop';
+import Scale from './components/Scale';
+
 
 
 
@@ -14,9 +16,11 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/editor' element={<VideoEditor/>}/>
-      </Routes> 
+      </Routes>
       {/* <ThumbnailCreator/> */}
      {/* <DragNDrop/> */}
+      {/* <Scale/>  */}
+      {/* <DynamicDivWidth/> */}
       </div>
   );
 }

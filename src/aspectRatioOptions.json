@@ -1,0 +1,20 @@
+[
+    {"icon":"https://cdn-icons-png.flaticon.com/512/1384/1384060.png","name":"Youtube","aspectRatio":"16:9"},
+    {"icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Youtube_shorts_icon.svg/1200px-Youtube_shorts_icon.svg.png","name":"Youtube Shorts","aspectRatio":"9:16"},
+    {"icon":"https://cdn-icons-png.flaticon.com/512/3938/3938074.png","name":"TikTok","aspectRatio":"9:16"},
+    {"icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png","name":"Instagram Post","aspectRatio":"1:1"},
+    {"icon":"https://cdn-icons-png.flaticon.com/512/5822/5822053.png","name":"Instagram Story","aspectRatio":"9:16"},
+    {"icon":"https://img.icons8.com/color/12x/instagram-reel.png","name":"Instagram Reel","aspectRatio":"9:16"},
+    {"icon":"https://cdn-icons-png.flaticon.com/512/174/174857.png","name":"LinkedIn","aspectRatio":"1:1"},
+    {"icon":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png?20220821125553","name":"Twitter","aspectRatio":"1:1"},
+    {"icon":"https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_circle_color-512.png","name":"Facebook Post","aspectRatio":"1.19:1"},
+    {"icon":"https://bluemoosemedia.com/wp-content/uploads/2020/07/Facebook-Instagram-Stories-for-Business.png","name":"Facebook Story","aspectRatio":"9:16"},
+    {"icon":"https://cdn.iconscout.com/icon/free/png-256/free-facebook-watch-6823211-5582795.png","name":"Facebook Video","aspectRatio":"1:1"},
+    {"icon":"https://assets.materialup.com/uploads/0a167b5f-425d-4b90-adeb-57016ccbcbcd/0x0ss-85.jpg","name":"Snapchat","aspectRatio":"9:16"},
+    {"icon":"https://static.thenounproject.com/png/688584-200.png","name":"Tall Portrait","aspectRatio":"9:16"},
+    {"icon":"https://cdn-icons-png.flaticon.com/512/10242/10242590.png","name":"Portrait","aspectRatio":"4:5"},
+    {"icon":"https://static.thenounproject.com/png/184028-200.png","name":"Square","aspectRatio":"1:1"}
+    
+
+
+]

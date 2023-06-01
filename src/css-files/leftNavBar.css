@@ -1,0 +1,122 @@
+/* .navContainer{
+    border-right: 1px solid grey;
+} */
+.leftNav{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+   color: black;
+   font-weight: 500;
+   text-align: center;
+   border-right: 1px solid rgba(128, 128, 128, 0.247);
+   
+}
+
+.leftNav:hover{
+    color: #0d6efd ;
+}
+
+.icon {
+    color: #c9cbd4;
+    transition: color 0.3s; /* Adding a smooth transition effect */
+    font-size: 30px;
+    position: relative;
+    overflow: hidden;
+    
+   
+  }
+  .icon:hover{
+    color: grey;
+  }
+
+  p:hover{
+    color: #0d6efd;
+  }
+  .ele{
+    transform: rotate(180deg);
+    transform: scaleY(-1);
+  }
+  /* .icon:hover {
+    background: rgb(208, 210, 211) radial-gradient(circle, transparent 1%, rgb(208, 210, 211) 1%) center/15000%;
+    /* border-radius: 50%; */
+  
+    .navBtn{
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        border: none;
+        background-color: white;
+    }
+    .navBtn:hover{
+        background-color: #e6e2e285;
+    }
+
+
+    /* ProjectSettings */
+    
+   .aspectRatio{
+    width:300px;
+    height:40px;
+    outline:none;
+    border-radius: 8px;
+    padding-left: 10px;
+    border-width: 2px;
+   }
+
+   .aspectRatio:hover{
+    outline: none;
+    border-color: rgb(0, 152, 253);
+    border-width: 2px;
+   }
+      
+
+   .custom-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+  }
+  
+  .dropdown-toggle {
+    background: none;
+    outline: 2px solid grey;
+    color: grey;
+    padding: 10px;
+    cursor: pointer;
+    text-align: left;
+    width: 360px;
+    border-radius: 8px;
+  }
+  
+  .dropdown-toggle:hover {
+    outline: 2px solid rgb(0, 152, 253);
+    border: none;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top:calc(100% + 10px);
+    left: 0;
+    width: 320px;
+    background-color: white;
+    border: 2px solid grey;
+    border-top: none;
+    display: none;
+    border-radius: 6px;
+   
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }

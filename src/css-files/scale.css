@@ -1,0 +1,92 @@
+#upperDiv {
+    position: relative;
+    width: 1800px; /* Updated width of the upper div */
+    height: 60px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+  }
+
+  #upperDiv .marking {
+    position: absolute;
+    bottom: 0;
+    width: 2px;
+    height: 10px; /* Updated height of the markings */
+    background-color: #ccc;
+  }
+
+  #upperDiv .marking-label {
+    position: absolute;
+    bottom: 12px; /* Adjusted position of the marking labels */
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: grey;
+    font-weight: 500;
+  }
+
+  #mediaFile1 {
+    height:80px;
+background: #ccc;
+border-radius: 10px;
+outline: 2px solid black;  
+  }
+  #mediaFile2{
+    /* width:500px; */
+    height:80px;
+    background:greenyellow ;
+    border-radius: 10px;
+    outline: 2px solid black; 
+   
+    }
+    #mediaFile3{
+    
+        /* width:400px; */
+        height:80px;
+        background: orange;
+        border-radius: 10px;
+        outline: 2px solid black;  
+       
+    }
+
+  #add-mediaLargeBtn{
+    text-align: center;
+    font-weight: 550;
+    height: 80px;
+    color: grey;
+    border: none;
+    background-color: #eee;
+    width:1800px;
+    margin-left: 0.5%;
+    border-radius: 10px;
+  }
+  #slider{
+    border: none;
+    width:98%;
+    margin-left: auto;
+  }
+  
+   .ui-slider{
+    width:98%;
+    /* height: 150px; */
+    margin-top: 10px;
+    margin-left: 1%;
+    
+    /* background-color: #eee; */
+    
+   }
+  
+   .ui-slider .ui-slider-handle {
+  
+  height:150px;
+    /* background: #0097fe; */
+    background: url("/src/Mediamodifier-Design-Template.png") no-repeat; 
+    
+    /* https://i.ibb.co/kGSBNfk/thumb-icon-1.png */
+      margin-top: 12px;
+    background-size: 30px 200px;
+  background-position: center;  
+    overflow: hidden;
+    border: none;
+    outline: none;
+  
+  }
+  

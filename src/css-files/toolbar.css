@@ -5,3 +5,6 @@
     margin-left: 10px;
     outline: none;
 }
+.toolBarButton:hover{
+    color:#0097fe;
+}

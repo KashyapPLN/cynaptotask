@@ -5,6 +5,9 @@ import Player from './Player'
 import Properties from './Properties'
 import MediaPlayer from './MediaPlayer'
 import DragNDrop from './DragNDrop'
+import Scale from './Scale'
+import LeftNavBar from './LeftNavBar'
+import ProjectSettings from '../css-files/ProjectSettings'
 
 
 
@@ -15,7 +18,15 @@ export default function VideoEditor() {
     <div>
         <Row>
 <Col sm={3}>
-<Assets />
+<Row>
+<Col sm={3}>
+<LeftNavBar/>
+</Col>
+<Col sm={9}>
+<ProjectSettings/>
+</Col>
+</Row>
+{/* <Assets /> */}
 </Col>
 <Col sm={6}>
 <Player />
@@ -36,7 +47,8 @@ export default function VideoEditor() {
   {/* <CustomSeekBar/> */}
   {/* <CustomSeekBar/>
   <VideoTrimmer/> */}
- <DragNDrop/>
+ {/* <DragNDrop/> */}
+ <Scale/>
 </div>
             </div>
             </Col>
